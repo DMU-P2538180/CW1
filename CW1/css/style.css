@@ -1,0 +1,15 @@
+h1, h2 {
+padding: 30px;
+background-color: blue;
+font-family: Comic;
+font-weight: bold;
+font-size: 300%;
+text-align: center;
+background: blueviolet;
+}
+p {
+color: red;
+font-family: courier;
+font-size: 160%;
+text-align: centre;
+}
