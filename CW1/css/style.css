@@ -24,3 +24,11 @@ img{
   max-width: 30%;
   padding: 15px;
 }
+.topnav a:hover{
+  color: white;
+  background-color: purple
+}
+.topnav a:active{
+  background-color: black;
+  color: white;
+}
