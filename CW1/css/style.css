@@ -19,6 +19,11 @@ nav {
   font-size: 150%;
   font-weight: bold;
 }
+body {
+  background-image: url(https://wallpapercave.com/w/wp5531566);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 img{
   float:right;
   max-width: 30%;
