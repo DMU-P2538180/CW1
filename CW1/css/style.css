@@ -11,6 +11,7 @@ color: red;
 font-family: courier;
 font-size: 160%;
 text-align: center;
+background-image: ../img/textborder.jpg;
 }
 nav {
   background-color: violet;
