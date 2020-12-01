@@ -22,6 +22,7 @@ nav {
   font-weight: bold;
 }
 body {
+  margin: 0%;
   background-image: url(../img/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +31,7 @@ img{
   vertical-align: middle;
   max-width: 30%;
   padding: 15px;
+  float: left;
 }
 .topnav{
   background-color:magenta;
@@ -47,4 +49,8 @@ img{
 .topnav a:active{
   background-color: black;
   color: white;
+}
+div {
+  width: 50%;
+  float: left;
 }
