@@ -27,7 +27,7 @@ body {
   background-size: cover;
 }
 img{
-  float:right;
+  vertical-align: middle;
   max-width: 30%;
   padding: 15px;
 }
