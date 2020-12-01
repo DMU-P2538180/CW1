@@ -12,6 +12,7 @@ font-family: courier;
 font-size: 160%;
 text-align: center;
 background-color: grey;
+float: left;
 }
 nav {
   background-color: violet;
