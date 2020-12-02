@@ -1,0 +1,60 @@
+h1, h2 {
+padding: 30px;
+background-color: blueviolet;
+font-style: comic;
+font-weight: bold;
+font-size: 300%;
+text-align: center;
+}
+p {
+color: red;
+font-family: courier;
+font-size: 160%;
+text-align: center;
+background-color: grey;
+float: left;
+}
+nav {
+  background-color: violet;
+  text-align: centre;
+  font-family: comic;
+  font-size: 150%;
+  font-weight: bold;
+}
+body {
+  margin: 0%;
+  background-image: url(../img/backg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+  vertical-align: middle;
+  max-width: 50%;
+  float: left;
+}
+.topnav{
+  background-color:magenta;
+  overflow: hidden;
+  font-size: 150%
+}
+.topnav a:hover{
+  color: white;
+  background-color: purple;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 175%
+}
+.topnav a:active{
+  background-color: black;
+  color: white;
+}
+div {
+  width: 50%;
+  float: left;
+}
+section::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
