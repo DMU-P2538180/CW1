@@ -16,16 +16,18 @@ float: left;
 }
 nav {
   background-color: violet;
-  text-align: centre;
+  text-align: center;
   font-family: comic;
   font-size: 150%;
   font-weight: bold;
+  display: block;
 }
 body {
   margin: 0%;
   background-image: url(../img/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
 }
 img{
   vertical-align: middle;
