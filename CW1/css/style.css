@@ -21,6 +21,7 @@ nav {
   font-size: 150%;
   font-weight: bold;
   display: block;
+  border-color: red;
 }
 body {
   margin: 0%;
@@ -34,15 +35,13 @@ img{
   max-width: 50%;
   float: left;
 }
-.topnav{
+nav{
   background-color:magenta;
   overflow: hidden;
   font-size: 150%;
   text-align: center;
-  box-sizing: border-box;
-
 }
-.topnav a:hover{
+nav a:hover{
   color: white;
   background-color: purple;
   text-align: center;
