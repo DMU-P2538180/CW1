@@ -20,11 +20,11 @@ nav {
   font-family: comic;
   font-size: 150%;
   font-weight: bold;
-  display: block;
-  border-color: red;
+  size: 30%;
+  padding: 20%
 }
 body {
-  margin: 0%;
+  margin: 5%;
   background-image: url(../img/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
