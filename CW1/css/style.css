@@ -65,3 +65,7 @@ p{
   border: 5px;
   color: purple;
 }
+video{
+  margin: 2%;
+  width: 96%;
+}
