@@ -35,7 +35,10 @@ img{
 .topnav{
   background-color:magenta;
   overflow: hidden;
-  font-size: 150%
+  font-size: 150%;
+  text-align: center;
+  box-sizing: border-box;
+
 }
 .topnav a:hover{
   color: white;
@@ -43,7 +46,7 @@ img{
   text-align: center;
   padding: 15px 20px;
   text-decoration: none;
-  font-size: 175%
+  font-size: 160%
 }
 .topnav a:active{
   background-color: black;
@@ -57,4 +60,8 @@ section::after {
   content: " ";
   display: block;
   clear: both;
+}
+p{
+  border: 5px;
+  color: purple;
 }
