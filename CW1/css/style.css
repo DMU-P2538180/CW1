@@ -14,7 +14,7 @@ text-align: center;
 background-color: grey;
 float: left;
 }
-nav {
+button {
   background-color: black;
   color: white;
   padding: 20px 30px;
@@ -35,24 +35,6 @@ img{
   max-width: 50%;
   float: left;
 }
-nav{
-  background-color:magenta;
-  overflow: hidden;
-  font-size: 150%;
-  text-align: center;
-}
-nav a:hover{
-  color: white;
-  background-color: purple;
-  text-align: center;
-  padding: 15px 20px;
-  text-decoration: none;
-  font-size: 160%
-}
-.topnav a:active{
-  background-color: black;
-  color: white;
-}
 div {
   width: 50%;
   float: left;
@@ -69,4 +51,27 @@ p{
 video{
   margin: 2%;
   width: 96%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
