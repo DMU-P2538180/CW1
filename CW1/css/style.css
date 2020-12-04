@@ -55,7 +55,7 @@ video{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: purple;
+  background-color: white;
   overflow: hidden;
   text-align: center;
 }
@@ -79,7 +79,7 @@ video{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: blueviolet;
+  background-color: Blue;
   color: white;
 }
 
