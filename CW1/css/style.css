@@ -41,13 +41,12 @@ video{
   width: 96%;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: blueviolet;
   overflow: hidden;
   text-align: center;
 }
-
+/* This centres the text for the links and colours the menu bar "Blue Violet"*/
 /* Style the links inside the navigation bar */
 .topnav a {
   display: block;
