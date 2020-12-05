@@ -1,14 +1,14 @@
 h1, h2 {
 padding: 30px;
 background-color: blueviolet;
-font-style: comic;
 font-weight: bold;
 font-size: 300%;
 text-align: center;
+font-family: Verdana, sans-serif;
 }
 p {
 color: red;
-font-family: courier;
+font-family: Courier, monospace;
 font-size: 160%;
 text-align: center;
 background-color: grey;
@@ -16,14 +16,6 @@ float: left;
 border: 5px purple solid;
 padding: 10px;
 }
-button {
-  background-color: black;
-  color: white;
-  padding: 20px 30px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 150%;
-  text-align: center;
 }
 body {
   margin: 5%;
@@ -48,10 +40,6 @@ section::after {
   display: block;
   clear: both;
 }
-p{
-  border: 5px;
-  color: purple;
-}
 video{
   margin: 2%;
   width: 96%;
@@ -59,14 +47,13 @@ video{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  background-color: blueviolet;
   overflow: hidden;
   text-align: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   display: block;
   color: purple;
   text-align: center;
@@ -83,11 +70,6 @@ video{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: Blue;
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+  background-color: black;
+  color: red;
 }
