@@ -1,8 +1,16 @@
-h1, h2 {
+h1 {
 padding: 30px;
 background-color: blueviolet;
 font-weight: bold;
 font-size: 300%;
+text-align: center;
+font-family: Verdana, sans-serif;
+}
+h2 {
+padding: 30px;
+background-color: blueviolet;
+font-weight: bold;
+font-size: 250%;
 text-align: center;
 font-family: Verdana, sans-serif;
 }
@@ -23,11 +31,11 @@ body {
 }
 img{
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 50%;
   float: left;
 }
 div {
-  width: 50%;
+  width: 75%;
   float: left;
   border-radius: 5px;
 }
@@ -83,4 +91,7 @@ ul{
   color: black;
   font-family: Courier, monospace;
   font-size: 160%;
+}
+audio{
+  align-content: center;
 }
