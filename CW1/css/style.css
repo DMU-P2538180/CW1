@@ -34,11 +34,6 @@ img{
   max-width: 150px;
   float: left;
 }
-div {
-  width: 50%;
-  float: left;
-  border-radius: 5px;
-}
 section::after {
   content: " ";
   display: block;
