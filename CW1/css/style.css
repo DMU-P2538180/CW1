@@ -31,11 +31,11 @@ body {
 }
 img{
   vertical-align: middle;
-  max-width: 50%;
+  max-width: 500px;
   float: left;
 }
 div {
-  width: 50%;
+  width: 75%;
   float: left;
   border-radius: 5px;
 }
