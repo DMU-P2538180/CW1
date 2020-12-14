@@ -35,7 +35,7 @@ img{
   float: left;
 }
 div {
-  width: 75%;
+  width: 50%;
   float: left;
   border-radius: 5px;
 }
@@ -46,7 +46,7 @@ section::after {
 }
 video{
   margin: 2%;
-  width: 96%;
+  width: 500px;
 }
 
 .topnav {
