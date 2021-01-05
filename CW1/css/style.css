@@ -1,26 +1,40 @@
 h1 {
 padding: 30px;
+/* creates space around the header */
 background-color: blueviolet;
+/* adds a background colour to the the header */
 font-weight: bold;
+/*makes the font bold */
 font-size: 300%;
+/*changes the font size */
 text-align: center;
+/* aligns the text to the centre of the page */
 font-family: Verdana, sans-serif;
+/* changes the font */
 }
 h2 {
 padding: 30px;
+/* creates space around the subtitle */
 background-color: blueviolet;
+/* adds a background colour to the the header */
 font-weight: bold;
+/*makes the font bold */
 font-size: 250%;
+/*changes the font size */
 text-align: center;
+/* aligns the text to the centre of the page */
 font-family: Verdana, sans-serif;
+/* changes the font */
 }
 .cast{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: space-around;
+  /* fits content around eachother */
 }
 .cast p{
+  /* changes the text colour on the cast page */
   color: black;
   font-family: Courier, monospace;
   font-size: 20px;
@@ -28,6 +42,7 @@ font-family: Verdana, sans-serif;
   background-color: blueviolet;
 }
 p {
+/* changes all paragraphs apart from paragraphs on certain pages */
 color: black;
 font-family: Courier, monospace;
 font-size: 160%;
@@ -37,31 +52,44 @@ background-color: blueviolet;
 body {
   margin: 5%;
   background-image: url(../img/backg.jpg);
+  /* changes the background to an image */
   background-repeat: no-repeat;
+  /* stops the background from repeating */
   background-size: cover;
+  /* enables the background to fit the length of the page */
   display: block;
 }
 img{
+/* changes the style for images */
   vertical-align: middle;
+  /* aligns the image in the middle of the first text line */
   max-width: 200px;
+  /* sets the max width for the image */
   float: left;
+  /* places the image to the left of the page */
 }
 section::after {
   content: " ";
   display: block;
   clear: both;
 }
+/* this creates a block of space when the section element is used after the content within it */
+
 video{
+  /* adds a style for the video used on the home page */
   margin: 2%;
+  /* creates space between the edge of the screen and the video */
   width: 90%;
+  /* sets the width of the video player */
 }
 
+/* Centres the text/ links in the menu bar */
 .topnav {
   background-color: blueviolet;
   overflow: hidden;
   text-align: center;
 }
-/* This centres the text for the links and colours the menu bar "Blue Violet"*/
+
 /* Style the links inside the navigation bar */
 .topnav a {
   display: block;
@@ -72,33 +100,32 @@ video{
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Change the color of links the mouse hovers over */
 .topnav a:hover {
   background-color: red;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
+/* Highlights the page that is active by highlighting the menu button used to access it */
 .topnav a.active {
   background-color: black;
   color: red;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* Hides the link that opens and closes the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 footer{
+  /*adds a style to the footer on the page */
   background-color: blueviolet;
   text-align: center;
 }
 ul{
+  /* adds a style for any lists used */
   background-color: blueviolet;
   text-align: center;
   color: black;
   font-family: Courier, monospace;
   font-size: 160%;
-}
-audio{
-  align-content: center;
 }
